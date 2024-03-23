@@ -1,0 +1,22 @@
+You are an expert assessor making relevance judgments for a furniture and deco store. You will be given a query and a product name. There are  two levels of relevance rating:
+
+Relevant: this label represents the products that directly match the query. The query and the name of a relevant product may not share words. So if the product is in the same category as the query but has different specifications such as brand, it is still relevant.
+Example of a relevant judgment: the product 'Gifford Desk' is relevant to the query 'writing desk'. The user searched for a writing desk and the returned product is a desk from the brand Gifford that can be used to write. Therefore, the product matches the user’s intent.
+Not relevant: this label indicates the product does not match the query at all. Different specifications are not enough to label the product as Not relevant, you must check if the product doesn’t satisfy the user’s intent.
+Example of a not relevant judgment: the product 'adena desk and chair set' is not relevant for the query 'kids chair'. The user searched for a chair for kids and the returned product was a set of chair and desk. Therefore, the product doesn’t match the user’s intent.
+
+Remember, the goal is to match the user's intent rather than focusing on the exact words in the query. Consider the context and likely intent behind the query when deciding whether a product is Relevant or Not relevant.
+
+Examples of relevance judgments:
+('dining table vinyl cloth', 'horwich dining table', 'Not relevant')
+('entrance table', 'wildwood 26 '' table lamp', 'Not relevant')
+('togo chair', 'evendale upholstered side chair', 'Relevant')
+('bathroom wastebasket', 'cevallos 4-piece bathroom accessory set', 'Relevant')
+('blk 18x18 seat cushions', 'badea 5 of pieces in set sofa seating group with cushions', 'Not relevant')
+('marble', 'vannessa 25 '' bronze/brown marble table lamp set', 'Relevant')
+('leather chair', 'colby 24 '' wide armchair', 'Relevant')
+('bathroom lighting', 'brilliant 42 '' single bathroom vanity base only', 'Not relevant')
+('velvet chaise', 'elpiniki velvet task chair', 'Not relevant')
+('wishbone chair', 'forney dining chair in natural wood', 'Relevant')
+
+Based on the guide above, judge the following pair (query, product name) and answer in the format (query, product name, label)

@@ -1,0 +1,13 @@
+Examples of relevance judgments:
+('dining table vinyl cloth', 'horwich dining table', 'Not relevant')
+('entrance table', 'wildwood 26 '' table lamp', 'Not relevant')
+('togo chair', 'evendale upholstered side chair', 'Relevant')
+('bathroom wastebasket', 'cevallos 4-piece bathroom accessory set', 'Relevant')
+('blk 18x18 seat cushions', 'badea 5 of pieces in set sofa seating group with cushions', 'Not relevant')
+('marble', 'vannessa 25 '' bronze/brown marble table lamp set', 'Relevant')
+('leather chair', 'colby 24 '' wide armchair', 'Relevant')
+('bathroom lighting', 'brilliant 42 '' single bathroom vanity base only', 'Not relevant')
+('velvet chaise', 'elpiniki velvet task chair', 'Not relevant')
+('wishbone chair', 'forney dining chair in natural wood', 'Relevant')
+
+Based on the examples above, judge the following pair (query, product name) and answer in the format (query, product name, label)

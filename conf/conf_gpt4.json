@@ -1,0 +1,67 @@
+{
+   "wands_ten_shot_human_baseline": {
+      "tags":[
+         "gpt4",
+         "wands",
+         "ten_shot",
+         "human_baseline"
+      ],
+      "input_guideline_template":"data/guidelines/human_baseline_ten_shot_WANDS.txt",
+      "csv_test_file" : "data/datasets/wands_2800_test.csv",
+      "output_judgment":"judgment_output.csv",
+      "output_judgment_file_formatted" : "formatted_judgment.csv",
+      "table" : "WANDS_2800_ten_shot_human_gpt4"
+   },
+   "wands_zero_shot_human_baseline": {
+      "tags":[
+         "gpt4",
+         "wands",
+         "zero_shot",
+         "human_baseline"
+      ],
+      "input_guideline_template":"data/guidelines/human_baseline_zero_shot_WANDS.txt",
+      "csv_test_file" : "data/datasets/wands_2800_test.csv",
+      "output_judgment":"judgment_output.csv",
+      "output_judgment_file_formatted" : "formatted_judgment.csv",
+      "table" : "WANDS_2800_zero_shot_human_gpt4"
+   },
+   "wands_ten_shot_LLM_generated": {
+      "tags":[
+         "gpt4",
+         "wands",
+         "ten_shot",
+         "LLM_generated"
+      ],
+      "input_guideline_template":"data/guidelines/LLM-generated_ten-shot_WANDS.txt",
+      "csv_test_file" : "data/datasets/wands_2800_test.csv",
+      "output_judgment":"judgment_output.csv",
+      "output_judgment_file_formatted" : "formatted_judgment.csv",
+      "table" : "WANDS_2800_ten_shot_LLM_generated_gpt4"
+   },
+   "wands_zero_shot_LLM_generated": {
+      "tags":[
+         "gpt4",
+         "wands",
+         "zero_shot",
+         "LLM_generated"
+      ],
+      "input_guideline_template":"data/guidelines/LLM-generated_zero-shot_WANDS.txt",
+      "csv_test_file" : "data/datasets/wands_2800_test.csv",
+      "output_judgment":"judgment_output.csv",
+      "output_judgment_file_formatted" : "formatted_judgment.csv",
+      "table" : "WANDS_2800_zero_shot_LLM_generated_gpt4"
+   },
+   "wands_ten_shot_without_guideline": {
+      "tags":[
+         "gpt4",
+         "wands",
+         "ten_shot",
+         "without_guideline"
+      ],
+      "input_guideline_template":"data/guidelines/without_guideline_WANDS.txt",
+      "csv_test_file" : "data/datasets/wands_2800_test.csv",
+      "output_judgment":"judgment_output.csv",
+      "output_judgment_file_formatted" : "formatted_judgment.csv",
+      "table" : "WANDS_2800_ten_shot_without_guideline_gpt4"
+   }
+}

@@ -1,0 +1,26 @@
+To label products as 'Relevant' or 'Not relevant' based on the relationships between the query and the returned product, consider the following guidelines:
+
+1. Relevance:
+- A product is considered 'Relevant' if it directly matches the user's intent or closely aligns with the query's context.
+- Look for products that fulfill the purpose or function described in the query.
+- Consider products that have similar features, characteristics, or qualities as mentioned in the query.
+- Take into account products that are commonly associated with the query's topic or category.
+
+Examples:
+- For the query 'meditation,' a relevant product could be the 'Carelton Feng Shui Zen Meditating Japanese Jizo Cat Monk on Lotus Throne Figurine' as it aligns with the concept of meditation and represents a meditating figure.
+- In the query 'hardwood beds,' the 'Meryl Solid Wood Platform Bed' would be relevant as it matches the material (hardwood) and the product type (bed).
+
+2. Not relevance:
+- A product is considered 'Not relevant' if it does not fulfill the purpose or function described in the query.
+- Exclude products that have no connection to the query's context, topic, or category.
+- Disregard products that have different features, characteristics, or qualities than those mentioned in the query.
+- Avoid products that are not commonly associated with the query's topic.
+
+Examples:
+- In the query 'nettie 5 pc bar set,' the 'Multipack 5'' Center to Center Bar Pull' would be not relevant as it is a hardware item and does not match the intended furniture or deco product.
+- For the query 'kids chair,' the 'Heinz 30'' Wide Cowhide Butterfly Chair' would be not relevant as it is a chair for adults and not specifically designed for kids.
+
+Remember, the goal is to understand the user's intent and match it with the most suitable products. Consider the context, purpose, and likely intent behind the query when deciding whether a product is 'Relevant' or 'Not relevant.'
+
+Based on the guide above, judge the following pair (query, product name) and answer in the format (query, product name, label)
+
